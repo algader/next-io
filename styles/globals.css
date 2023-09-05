@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   padding: 0;
   margin: 0;
@@ -23,4 +23,9 @@ a {
     color: white;
     background: black;
   }
+}
+ */
+
+.ck-editor__editable:not(.ck-editor__nested-editable) {
+  min-height: 160px;
 }
